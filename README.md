@@ -119,6 +119,8 @@ plt.show()
 
 **Statistical Understanding:** Used pivot table to create two-way summary, visualized as heatmap to identify patterns. Color gradient highlights outliers (opportunities and underperformers).
 
+![Regional Performance](images/regional_performance.png)
+
 ---
 
 ### Application 3: Discount Impact Analysis
@@ -201,6 +203,8 @@ plt.show()
 
 **Statistical Understanding:** Multi-level aggregation (mean, sum, count) across segments. Compared averages to identify behavioral differences rather than just volume.
 
+![Customer Sales](images/customer_sales.png)
+
 ---
 
 ### Application 5: Sales Driver Analysis
@@ -231,6 +235,8 @@ print(correlations['Sales'].sort_values(ascending=False))
 **Business Insight:** Quantity is the strongest driver of sales (bulk orders = higher revenue). Surprisingly, discounts barely affect sales volume, suggesting we're leaving money on the table with unnecessary discounting.
 
 **Statistical Understanding:** Correlation matrix reveals relationships between variables. Strong Sales-Quantity correlation (+0.62) indicates bulk purchasing is key driver. Weak Sales-Discount correlation (+0.03) challenges assumption that discounts drive volume.
+
+![Sales Drivers](images/sales_drivers_correlation.png)
 
 ---
 
@@ -267,6 +273,8 @@ plt.show()
 **Business Insight:** Standard shipping is most profitable. Premium shipping options (Same Day) don't generate enough margin to justify costs. Either increase Same Day pricing or promote Standard Class more aggressively.
 
 **Statistical Understanding:** Grouped by categorical variable (Ship Mode) and calculated mean profit. Horizontal bar chart makes ranking immediately clear.
+
+![Shipping Analysis](images/shipping_analysis.png)
 
 ---
 
