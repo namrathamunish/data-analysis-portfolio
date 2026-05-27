@@ -109,7 +109,7 @@ plt.ylabel("Region")
 plt.xlabel("Category")
 plt.tight_layout()
 plt.show()
-
+```
 
 **Results:**
 - South-Technology: Highest avg sale ($508)
@@ -144,7 +144,7 @@ discount_analysis = df.groupby('Discount_Bracket').agg({
 }).round(2)
 
 print(discount_analysis)
-
+```
 
 **Results:**
 - Discount-Profit correlation: -0.219 (moderate negative)
